@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.js"],"names":[],"mappings":";;AAAA;;AACA;;AACA;;AACA","sourcesContent":["import React from 'react';\nimport { BrowserRouter as Router, Routes, Route } from 'react-router-dom';\nimport HomePage from './components/HomePage';\nimport Register from './components/Register';\n"],"file":"App.dev.js"}

@@ -1,0 +1,14 @@
+DONE UPTO REGISTER LOGIN 
+DONE PASSWORD ENCRYPTION USED HASHING AVAILABLE in userservice
+done profile pic storing
+cerated eureka server
+planning to do jwt as microservice
+same for file uploading and emailing too
+----------------------------------------------------
+done jwt upto login now integrating that to admin home
+sme for peer and user too
+---------------------
+credentails
+jwtadmin@gmail.com - jwtadmin@123
+jwtuser@gmail.com - jwtuser@123
+jwtpeer@gmail.com - jwtpeer@123

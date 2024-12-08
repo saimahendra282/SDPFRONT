@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* Distribute cards evenly across the container */
+    margin-top: 20px;
+  }
+  
+  .peer-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .peer-card {
+    background-color: white;
+    border-radius: 12px; /* Slightly more rounded corners for a smoother look */
+    width: 300px; /* Adjust the width as necessary */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1); /* Added subtle shadow for better emphasis */
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .peer-card:hover {
+    transform: translateY(-5px); /* Lift the card slightly on hover */
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.2); /* More prominent shadow on hover */
+  }
+  
+  .companyname {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333; /* Slightly darker text for better visibility */
+    margin-bottom: 12px;
+  }
+  
+  .top {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .profile-img {
+    width: 120px; /* Increased image size for better visibility */
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover; /* Ensure the image is fully contained in the circle */
+    margin-bottom: 10px;
+  }
+  
+  .edit-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 50%; /* Make the icon rounded */
+  }
+  
+  .edit-icon:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .ename {
+    margin: 12px 0;
+    font-size: 18px; /* Slightly larger name for prominence */
+    font-weight: 600;
+  }
+  
+  .edetails {
+    font-size: 15px;
+    color: #555; /* Slightly lighter color for details */
+  }
+  
+  .edetails p {
+    margin: 8px 0;
+  }
+  
+  .edetails .email-block {
+    word-break: break-word; /* Prevent email overflow */
+    font-size: 14px;
+  }
+  
